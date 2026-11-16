@@ -190,7 +190,7 @@ The project uses different visualization techniques to understand loan performan
 
 Area and Line Chart showing the monthly trend of total funded loan amounts throughout 2021.
 
-![Monthly Funded Amount](visualizations/Screenshot%202026-11-16%20174320.png)
+![Monthly Funded Amount](Screenshot%202026-11-16%20174320.png)
 
 **Key Insight:** Total funded amount increased from $25.03 million in January to $53.98 million in December 2021, showing an overall upward trend in lending activity.
 
@@ -200,7 +200,7 @@ Area and Line Chart showing the monthly trend of total funded loan amounts throu
 
 Horizontal Bar Chart representing the distribution of total funded amounts across different states.
 
-![State-wise Funded Amount](visualizations/Screenshot%202026-11-16%20174502.png)
+![State-wise Funded Amount](Screenshot%202026-11-16%20174502.png)
 
 **Key Insight:** California (CA) recorded the highest funded amount at $78.484 million, followed by New York (NY) at $42.077 million and Texas (TX) at $31.237 million.
 
@@ -210,7 +210,7 @@ Horizontal Bar Chart representing the distribution of total funded amounts acros
 
 Doughnut Chart showing the distribution of funded amounts across 36-month and 60-month loan terms.
 
-![Funded Amount by Loan Term](visualizations/Screenshot%202026-11-16%20174530.png)
+![Funded Amount by Loan Term](Screenshot%202026-11-16%20174530.png)
 
 **Key Insight:**
 
@@ -223,7 +223,7 @@ Doughnut Chart showing the distribution of funded amounts across 36-month and 60
 
 Area and Line Chart showing the monthly number of loan applications received during 2021.
 
-![Monthly Loan Applications](visualizations/Screenshot%202026-11-16%20174906.png)
+![Monthly Loan Applications](Screenshot%202026-11-16%20174906.png)
 
 **Key Insight:** Loan applications increased from 2,332 in January to 4,314 in December 2021, indicating consistent growth in loan application activity.
 
