@@ -10,6 +10,7 @@ The analysis focuses on understanding good loans and bad loans, monitoring month
 ---
 
 ### Table of Contents
+
 - [Problem Statement](#problem-statement)
 - [Project Objectives](#project-objectives)
 - [Dataset](#dataset)
@@ -31,6 +32,7 @@ Financial institutions need to monitor loan applications, lending performance, r
 The objective of this project is to analyze historical bank loan data and identify patterns in loan applications, funded amounts, repayments, loan status, and borrower characteristics.
 
 The analysis aims to answer the following business questions:
+
 - How many loan applications were received?
 - What is the total amount funded and received?
 - What percentage of loans are classified as good loans and bad loans?
@@ -71,6 +73,7 @@ The project uses an Excel dataset named `financial_loan.xlsx`.
 | Data Type | Financial and Loan Data |
 
 **Important Dataset Columns:**
+
 - `id` – Unique loan application identifier.
 - `address_state` – Borrower's state.
 - `application_type` – Type of loan application.
@@ -108,6 +111,7 @@ The project uses an Excel dataset named `financial_loan.xlsx`.
 ### Data Cleaning & Preparation
 
 The initial data inspection and preparation involved:
+
 - Importing the Excel dataset using Pandas.
 - Inspecting the first and last five records.
 - Checking dataset dimensions (rows and columns).
@@ -137,10 +141,12 @@ The project explores several important financial performance metrics and lending
 **2. Good Loan Analysis**
 
 Good loans are classified as loans with the following statuses:
+
 - Fully Paid
 - Current
 
 Metrics analyzed:
+
 - Good Loan Applications
 - Good Loan Funded Amount
 - Good Loan Amount Received
@@ -149,9 +155,11 @@ Metrics analyzed:
 **3. Bad Loan Analysis**
 
 Bad loans are classified as loans with the following status:
+
 - Charged Off
 
 Metrics analyzed:
+
 - Bad Loan Applications
 - Bad Loan Funded Amount
 - Bad Loan Amount Received
@@ -176,6 +184,51 @@ Metrics analyzed:
 ### Visualizations
 
 The project uses different visualization techniques to understand loan performance and lending patterns.
+
+**1. Monthly Funded Amount Analysis**
+
+Area and Line Chart showing the monthly trend of total funded loan amounts throughout 2021.
+
+![Monthly Funded Amount](visualizations/monthly-funded-amount.png)
+
+**Key Insight:** Total funded amount increased from $25.03 million in January to $53.98 million in December 2021, showing an overall upward trend in lending activity.
+
+---
+
+**2. State-wise Funded Amount Analysis**
+
+Horizontal Bar Chart representing the distribution of total funded amounts across different states.
+
+![State-wise Funded Amount](visualizations/state-wise-funded-amount.png)
+
+**Key Insight:** California (CA) recorded the highest funded amount at $78.484 million, followed by New York (NY) at $42.077 million and Texas (TX) at $31.237 million.
+
+---
+
+**3. Funded Amount by Loan Term**
+
+Doughnut Chart showing the distribution of funded amounts across 36-month and 60-month loan terms.
+
+![Funded Amount by Loan Term](visualizations/funded-amount-by-term.png)
+
+**Key Insight:**
+
+- 36-month loans account for 62.7% of the total funded amount ($273.0 million).
+- 60-month loans account for 37.3% of the total funded amount ($162.7 million).
+
+---
+
+**4. Monthly Loan Applications Analysis**
+
+Area and Line Chart showing the monthly number of loan applications received during 2021.
+
+![Monthly Loan Applications](visualizations/monthly-loan-applications.png)
+
+**Key Insight:** Loan applications increased from 2,332 in January to 4,314 in December 2021, indicating consistent growth in loan application activity.
+
+---
+
+**Other Visualizations Included in the Project**
 
 | Visualization | Purpose |
 |---|---|
@@ -232,7 +285,13 @@ python-bank-loan-analysis/
 │
 ├── Bank Loan Analysis Project.ipynb
 │
-└── financial_loan.xlsx
+├── financial_loan.xlsx
+│
+└── visualizations/
+    ├── monthly-funded-amount.png
+    ├── state-wise-funded-amount.png
+    ├── funded-amount-by-term.png
+    └── monthly-loan-applications.png
 ```
 
 ---
@@ -247,5 +306,3 @@ This project demonstrates practical skills in Python programming, data manipulat
 ---
 
 ### Author
-
-
