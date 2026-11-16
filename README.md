@@ -189,7 +189,7 @@ The project uses different visualization techniques to understand loan performan
 
 Area and Line Chart showing the monthly trend of total funded loan amounts throughout 2021.
 
-![Monthly Funded Amount](visualizations/monthly-funded-amount.png)
+![Monthly Funded Amount](Screenshot-2026-11-16-174320.png)
 
 **Key Insight:** Total funded amount increased from $25.03 million in January to $53.98 million in December 2021, showing an overall upward trend in lending activity.
 
