@@ -307,4 +307,5 @@ This project demonstrates practical skills in Python programming, data manipulat
 
 ---
 
-### Author
+### 👤Author
+***Imran Modi***
